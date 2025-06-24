@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ai-playground
+  config:
+    import: "file:keys.properties"
+
+  ai:
+    openai:
+      api-key: ${open.ai.key}
